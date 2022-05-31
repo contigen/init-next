@@ -25,15 +25,17 @@ export default function Post({ postData }) {
         <title>{postData.title}</title>
       </Head>
       <article className="m-7">
-        <h2 className="text-4xl">{postData.title}</h2>
+        <h2 className="text-4xl text-blue-600">{postData.title}</h2>
         {postData.id}
         <br />
         <Date dateString={postData.date} />
         <br />
-        <section
-          dangerouslySetInnerHTML={{ __html: postData.htmlContent }}
-          className="m-7 "
-        />
+        <section className="m-7 ">
+          <span
+            className="lg:text-xl"
+            dangerouslySetInnerHTML={{ __html: postData.htmlContent }}
+          ></span>
+        </section>
       </article>
     </Layout>
   );

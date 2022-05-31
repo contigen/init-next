@@ -1,6 +1,7 @@
 import Head from "next/head";
 import Image from "next/image";
 import Link from "next/link";
+
 const name = `Muhammed/contigen`;
 export const siteTitle = `Next.js sample website`;
 
@@ -21,7 +22,7 @@ export default function Layout({ children, home }) {
       </Head>
       <header>
         {home ? (
-          <>
+          <div className="m-7">
             <Image
               priority
               src="/images/PngItem_975909.png"
@@ -29,10 +30,10 @@ export default function Layout({ children, home }) {
               height={144}
               width={144}
             />
-            <h3 className="text-3xl md:text-4xl">{name}</h3>
-          </>
+            <h3 className="mx-0 text-3xl md:text-4xl">{name}</h3>
+          </div>
         ) : (
-          <>
+          <div className="m-7">
             <Link href="/">
               <a>
                 <Image
@@ -44,19 +45,19 @@ export default function Layout({ children, home }) {
                 />
               </a>
             </Link>
-            <h3 className="text-3xl md:text-4xl">
+            <h3 className="mx-0 text-3xl  md:text-4xl">
               <Link href="/">
                 <a>{name}</a>
               </Link>
             </h3>
-          </>
+          </div>
         )}
       </header>
       <main>{children}</main>
       {!home && (
         <section>
           <Link href="/">
-            <a>Back to home</a>
+            <a className="m-7">Back to home</a>
           </Link>
         </section>
       )}
