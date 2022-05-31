@@ -1,4 +1,5 @@
-This is my first [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app). I made this following the Next.js docs, very informative. Generally speaking, I care about quality and hence, I read the docs to have well detailed information, and that helps to better write quality codes and have a performant App.
+# Init-Next
+A blog App built with Next.js - This is my first [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app). Using the fs library, I fetched files from the system, written in markdown format; I used the remark library to parse into HTML. I made this following the Next.js docs, very informative. Generally speaking, I care about quality and hence, I read the docs to have well detailed information, and that helps to better write quality codes and have a performant App.
 
 ## Getting Started
 
