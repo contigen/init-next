@@ -20,27 +20,28 @@ export default function Home({ allPostsData }) {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main>
-        <h1 className="text-5xl md:text-6xl">
+        <h1 className="text-4xl md:text-5xl">
           Muhammed / Contigen, welcome to Next.js
         </h1>
-        <h3 className="text-3xl md:text-4xl">
+        <span className="m-7 text-2xl md:text-3xl">
           Read{" "}
           <Link href="/posts/first-post">
-            <a>first page!</a>
+            <a className="text-blue-500">first page!</a>
           </Link>
-        </h3>
+        </span>
       </main>
       <section className="m-7">
-        <h3 className="text-3xl md:text-4xl m-0 my-7">Blog</h3>
+        <h3 className="m-0 my-7 text-2xl md:text-3xl">Blog, yes?</h3>
         <ul>
           {allPostsData.map(({ id, date, title }) => (
             <li key={id} className="text-2xl ">
               <Link href={`/posts/${id}`}>
-                <a className="text-teal-700">{title}</a>
+                <a className="text-blue-500">{title}</a>
               </Link>
               <br></br>
-              <Date dateString={date} />
-              <small></small>
+              <small>
+                <Date dateString={date} />
+              </small>
             </li>
           ))}
         </ul>

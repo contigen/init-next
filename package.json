@@ -1,5 +1,5 @@
 {
-  "name": "init-net",
+  "name": "init-next",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -22,6 +22,7 @@
     "eslint": "8.16.0",
     "eslint-config-next": "12.1.6",
     "postcss": "^8.4.14",
+    "prettier-plugin-tailwindcss": "^0.1.11",
     "tailwindcss": "^3.0.24"
   }
 }

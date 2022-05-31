@@ -1,4 +1,4 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+This is my first [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app). I made this following the Next.js docs, very informative. Generally speaking, I care about quality and hence, I read the docs to have well detailed information, and that helps to better write quality codes and have a performant App.
 
 ## Getting Started
 
@@ -6,7 +6,7 @@ First, run the development server:
 
 ```bash
 npm run dev
-# or
+#or
 yarn dev
 ```
 
@@ -29,6 +29,6 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 
 ## Deploy on Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js - for sure, the best way!
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
